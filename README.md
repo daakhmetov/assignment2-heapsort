@@ -11,18 +11,8 @@ Comprehensive unit tests for correctness and edge cases
 Peer analysis report for the Shell Sort algorithm (partner’s work)
 
 Repository Structure
-assignment2-heapsort/
-├── src/main/java/
-│   ├── algorithms/HeapSort.java
-│   ├── metrics/PerformanceTracker.java
-│   └── cli/BenchmarkRunner.java
-├── src/test/java/
-│   └── algorithms/HeapSortTest.java
-├── docs/
-│   ├── analysis-report.pdf        # Analysis of partner's Shell Sort algorithm
-│   └── performance-plots/         # Benchmark results (CSV/plots)
-├── README.md
-└── pom.xml
+<img width="430" height="369" alt="image" src="https://github.com/user-attachments/assets/3c4f4ee5-a7f3-4cde-bc81-4f6c43a66917" />
+
 
 Features
 
