@@ -1,17 +1,16 @@
-🧩 Overview
+Overview
 
-This repository contains the implementation and analysis for Heap Sort, developed as part of Assignment 2: Algorithmic Analysis and Peer Code Review.
-Heap Sort is an efficient, in-place, comparison-based sorting algorithm that builds a binary heap and repeatedly extracts the maximum element to produce a sorted array.
+This repository contains the implementation and analysis of the Heap Sort algorithm as part of Assignment 2: Algorithmic Analysis and Peer Code Review.
 
-This implementation includes:
+The project includes:
 
-Modular structure with Maven and JUnit 5
+In-place Heap Sort implementation with performance tracking
 
-Performance tracking (comparisons, swaps, array accesses, time)
+Comprehensive unit tests for correctness and edge cases
 
-CLI benchmark for empirical validation
+Peer analysis report for the Shell Sort algorithm (partner’s work)
 
-⚙️ Project Structure
+Repository Structure
 assignment2-heapsort/
 ├── src/main/java/
 │   ├── algorithms/HeapSort.java
@@ -20,26 +19,27 @@ assignment2-heapsort/
 ├── src/test/java/
 │   └── algorithms/HeapSortTest.java
 ├── docs/
-│   ├── analysis-report.pdf
-│   ├── cross-review-summary.pdf
-│   └── performance-plots/
-├── pom.xml
-└── README.md
+│   ├── analysis-report.pdf        # Analysis of partner's Shell Sort algorithm
+│   └── performance-plots/         # Benchmark results (CSV/plots)
+├── README.md
+└── pom.xml
 
-📊 Complexity Summary
-Case	Time Complexity	Space Complexity	Stable
-Best	O(n log n)	O(1)	❌ No
-Average	O(n log n)	O(1)	❌ No
-Worst	O(n log n)	O(1)	❌ No
+Features
 
-Heap Sort is in-place, non-recursive, and maintains consistent O(n log n) performance across all cases.
+In-place Heap Sort implementation
 
-📄 Deliverables
+Tracks comparisons, swaps, and array accesses
 
-✅ Implementation (src/)
+CLI interface for benchmarking different input types (random, sorted, reversed, duplicate)
 
-✅ Analysis report (docs/analysis-report.pdf)
+Unit tests for all edge cases:
 
-✅ Cross-review summary (docs/cross-review-summary.pdf)
+Empty array
 
-✅ Performance data (docs/performance-plots/heap_sort_results.csv)
+Single element
+
+Sorted input
+
+Reverse-sorted input
+
+Duplicate values
